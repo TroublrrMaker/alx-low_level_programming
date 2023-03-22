@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-* Description:- 'Writing a code to print _putchar to the output'
-* main- is the entry point
-* return is always 0
-*/
+ * main - Entry point
+ * Description: 'Writing a code to print _putchar to the output'
+ * Return: always 0
+ */
 int main(void)
 {
 _putchar('_');
