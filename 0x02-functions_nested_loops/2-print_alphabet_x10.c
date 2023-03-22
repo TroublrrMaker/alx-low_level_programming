@@ -8,10 +8,11 @@ char alphabet;
 int i, count;
 while (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-for (i = 0; count < 10; i++)
+while (i = 0; count < 10; i++)
 {
 _putchar("%c", alphabet);
 }
-_putchar('\n')
+_putchar('\n');
+i++;
 }
 }
