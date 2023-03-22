@@ -1,13 +1,10 @@
 #include "main.h"
-/*
-*Writing a code to print to _putchar to the output
-*main- is the entry point
-*Program prints "_putchar" to the output
-*return is always 0
+/**
+* Description:- Writing a code to print _putchar to the output
+* main- is the entry point
+* return is always 0
 */
-/*Main fuction */
 int main(void)
-/*Main- entry point of program*/
 {
 _putchar('_');
 _putchar('p');
@@ -20,4 +17,3 @@ _putchar('r');
 _putchar('\n');
 return (0);
 }
-
