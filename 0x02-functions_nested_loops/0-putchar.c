@@ -1,6 +1,7 @@
 #include "main.h"
 /* Writing a code to print to _putchar to the output*/
-int main(void){
+int main(void)
+{
 putchar('_');
 putchar('p');
 putchar('u');
@@ -12,6 +13,6 @@ putchar('r');
 putchar('\n');
 
 
-return 0;
+return (0);
 }
 
