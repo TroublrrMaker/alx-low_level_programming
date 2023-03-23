@@ -5,7 +5,7 @@
  * Return: 1 if character is upper, return 0 if char is not upper
  */
 
-int _isdigit(int c);
+int _isdigit(int c)
 {
 if (c >= 0 && c <= 9)
 	return (1);
