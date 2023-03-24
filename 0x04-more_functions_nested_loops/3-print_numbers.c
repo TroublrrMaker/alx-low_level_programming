@@ -11,5 +11,5 @@ if (i > 47; i < 58; i++)
 {
 _putchar(i);
 }
--putchar('\n');
+_putchar('\n');
 }
