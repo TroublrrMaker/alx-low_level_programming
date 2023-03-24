@@ -11,10 +11,10 @@ int i;
 
 for (i = 48; i < 58; i++)
 {
-while (i != 50)
+if (i != 50)
 
 {
-while (i != 52)
+if (i != 52)
 
 _putchar(i);
 }
