@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - prints a straight line
+ * print_diagonal - prints a straight line
  * @n: is the number of times the line is printed
  * Return: Always 0
  */
@@ -21,8 +21,10 @@ for (i = 0; i < n; i++)
 for (j = 0; j < n; j++)
 {
 if (j == i)
-_putchar('\\');
+_putchar('\\')
+	;
 else if (j < i)
+
 _putchar(' ');
 }
 _putchar('\n');
