@@ -7,7 +7,7 @@
  */
 void rev_string(char *s)
 {
-chr reverse = s[0];
+char reverse = s[0];
 int sequence = 0;
 int a;
 
