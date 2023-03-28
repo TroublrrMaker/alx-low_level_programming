@@ -21,3 +21,4 @@ for (a = i; a > 0; a--)
 _putchar(*s);
 s--;
 }
+}
