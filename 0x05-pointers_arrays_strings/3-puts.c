@@ -7,6 +7,6 @@
  */
 void _puts(char *str)
 {
-str = 'Holberton!';
+char *str = "Holberton!";
 _puts(str);
 }
