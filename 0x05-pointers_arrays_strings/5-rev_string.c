@@ -7,18 +7,18 @@
  */
 void rev_string(char *s)
 {
-int i = 0;
+chr reverse = s[0];
+int sequence = 0;
 int a;
 
-while (*s != '\0')
+while (s[sequence] != '\0')
+sequence++;
+
+for (a = 0; a < sequence; a++)
 {
-i++;
-s++;
-}
-s--;
-for (a = i; a > 0; a--)
-{
-_putchar(*s);
-s--;
+sequence--;
+reverse = s[a];
+s[a] = s[sequence];
+s[sequence] = reverse;
 }
 }
