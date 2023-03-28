@@ -16,7 +16,7 @@ n = (len / 2);
 if ((len % 2) == 1)
 n = ((len + 1) / 2);
 
-for (j = n; str[j] != '\0', j++)
-_putchar(str[a]);
+for (j = n; str[j] != '\0'; j++)
+_putchar(str[j]);
 _putchar('\n');
 }
