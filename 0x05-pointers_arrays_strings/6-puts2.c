@@ -24,6 +24,6 @@ if (l % 2 == 0)
 {
 _putchar(str[l]);
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
