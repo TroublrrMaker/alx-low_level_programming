@@ -3,9 +3,16 @@
 /**
  * _strlen - A function that prints the length of a string
  * @s: String
- * Return: always 0
+ * Return: string length
  */
 int _strlen(char *s)
 {
- _strlen(*s);
+int str = 0;
+
+while (*s != '\0')
+{
+str++;
+s++;
+}
+return (str);
 }
