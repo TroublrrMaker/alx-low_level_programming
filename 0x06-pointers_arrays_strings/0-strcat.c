@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * strcat - is the function that appends two variables
- * @dest : Is variable 1
- * @src : Variable 2
- * Return : Return the appended variable dest
+ * _strcat- is the function that appends two variables
+ * @dest: Is variable 1
+ * @src: Variable 2
+ * Return: return the appended variable dest
  */
 
 char *_strcat(char *dest, char *src)
