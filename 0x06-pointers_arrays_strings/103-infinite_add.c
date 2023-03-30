@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * infinite_add - add 2 numbers
