@@ -12,7 +12,7 @@ while (*s)
 {
 for (i = 0; accept[i]; i++)
 {
-if (*s == accept[k])
+if (*s == accept[i])
 return (s);
 }
 s++;
