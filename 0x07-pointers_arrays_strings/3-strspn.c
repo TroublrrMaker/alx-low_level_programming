@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _strspn - function to transit you"
- * @s: inputted uno fly am
+ * _strspn - function to transit you
+ * @s: input
  * @accept: bytes
  * Return: Always 0
  */
