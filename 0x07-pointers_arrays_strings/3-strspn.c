@@ -2,7 +2,7 @@
 /**
  * _strspn - function to transit you"
  * @s: inputted uno fly am
- * @accept: bytes 
+ * @accept: bytes
  * Return: Always 0
  */
 unsigned int _strspn(char *s, char *accept)

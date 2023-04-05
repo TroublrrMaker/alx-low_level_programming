@@ -1,4 +1,4 @@
-#include "main."
+#include "main.h"
 
 /**
  * _strchr - Function that finds a character in a string
