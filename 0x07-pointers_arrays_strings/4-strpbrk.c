@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strpbrk - Function that searches a string for any of a set of bytes
+ * _strpbrk - Function that searches a string for ocurrence of a given string
  * @s: input
  * @accept: dest input
  * Return: Always 0.
