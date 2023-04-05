@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _strspn - function to transit you
- * @s: input
- * @accept: bytes
+ * _strspn - function returns the lenght of a char from a given str
+ * @s: str to be scanned
+ * @accept: str to be matched
  * Return: Always 0
  */
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int n = 0;
+unsigned int i = 0;
 int j;
 
 while (*s)
@@ -24,5 +24,5 @@ return (i);
 }
 s++;
 }
-return (n);
+return (i);
 }
