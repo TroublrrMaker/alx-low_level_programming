@@ -18,3 +18,4 @@ else
 {
 return (n * (n - 1));
 }
+}
