@@ -7,18 +7,19 @@
 int factorial(int n)
 {
 int res;
-if (n != 1)
-{
-factorial(res = n * (n - 1));
-return (res);
-}
-else if (n == 0)
+if (n == 0)
 {
 return (1);
 }
 else if (n < 0)
 {
 return (-1);
+}
+else
+{
+factorial(res = n * (n - 1));
+n--;
+return (res);
 }
 return (0);
 }
