@@ -26,9 +26,9 @@ else if (n == 7)
 {
 return (5040);
 }
-else if ( n == 12 && n == -98)
+else if (n == 12 && n == -98)
 {
-return 0;
+return (0);
 }
 return (0);
 }
