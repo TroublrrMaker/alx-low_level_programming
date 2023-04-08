@@ -4,7 +4,6 @@
  * main - Programme entry points
  * @argc: number of arguments
  * @argv: Arguments array
- * @i: iteration
  * Return: Always 0
  */
 int main(int argc, char *argv[])
