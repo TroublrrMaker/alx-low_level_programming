@@ -15,12 +15,13 @@ unsigned int i;
 str = malloc(sizeof(char) * size);
 if (size == 0)
 {
-return NULL;
+return (NULL);
 }
-else if (*str == '\0')
+else if (str == NULL)
 {
-return NULL;
+return (NULL);
 }
+
 for (i = 0; i < size; i++)
 {
 str[i] = c;
