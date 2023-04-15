@@ -17,16 +17,16 @@ if (width <= 0 || height <= 0)
 return (NULL);
 
 
-rect = malloc(sizeof(int*) * height);
+rect = malloc(sizeof(int *) * width);
 
 if (rect == NULL)
 {
 return (NULL);
 }
 
-for (i = 0; i < width; i++)
+for (i = 0; i < height; i++)
 {
-rect[i] = malloc(sizeof(int) * height);
+rect[i] = malloc(sizeof(int) * width);
 if (rect[i] == NULL)
 {
 for (; i >= 0; i--)
@@ -36,9 +36,9 @@ return (NULL);
 }
 }
 
-for (i = 0; i < width; i++)
+for (i = 0; i < height; i++)
 {
-for (j = 0; j < height; j++)
+for (j = 0; j < width; j++)
 rect[i][j] = 0;
 }
 
