@@ -20,14 +20,16 @@ return (NULL);
 rect = malloc(sizeof(int*) * height);
 
 if (rect == NULL)
+{
 return (NULL);
+}
 
 for (i = 0; i < width; i++)
 {
 rect[i] = malloc(sizeof(int) * height);
 if (rect[i] == NULL)
 {
-for (; i >= 0; --i)
+for (; i >= 0; i--)
 free(rect[i]);
 free(rect);
 return (NULL);
