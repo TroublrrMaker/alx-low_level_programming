@@ -1,6 +1,16 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-struct dog(char *name, float age, char *owner);
+/**
+ * struct dog - is a structure
+ * @name: is a parameter in the structure
+ * @age: parameter in struct fxn
+ * @owner: Another struct param
+ */
+struct dog
+{
+char *name;
+float age;
+char *owner;
+};
 
 #endif
