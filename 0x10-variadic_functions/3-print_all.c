@@ -22,7 +22,7 @@ while (format[i])
 switch (format[i])
 {
 case 'c':
-printf("%s %c", separator, va_arg(anything, int));
+printf("%s%c", separator, va_arg(anything, int));
 break;
 
 case 'i':
