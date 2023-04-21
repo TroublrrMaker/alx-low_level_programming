@@ -20,11 +20,14 @@ for (count = 0; count < n; count++)
 str = va_arg(add, char *);
 
 if (str == NULL)
-printf("nil");
+{
+printf("(nil)");
+}
 
 else
+{
 printf("%s", str);
-
+}
 
 
 if (count != (n - 1) && separator != NULL)
