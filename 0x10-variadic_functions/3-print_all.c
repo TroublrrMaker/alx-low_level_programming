@@ -22,15 +22,15 @@ while (format[i])
 switch (format[i])
 {
 case 'c':
-printf("%s%c", separator, va_arg(anything, int));
+printf("%s %c", separator, va_arg(anything, int));
 break;
 
 case 'i':
-printf("%s%d", separator, va_arg(anything, int));
+printf("%s %d", separator, va_arg(anything, int));
 break;
 
 case 'f':
-printf("%s%f", separator, va_arg(anything, double));
+printf("%s %f", separator, va_arg(anything, double));
 break;
 
 case 's':
@@ -38,7 +38,7 @@ str = va_arg(anything, char *);
 if (!str)
 str = "(nil)";
 
-printf("%s%s", separator, str);
+printf("%s %s", separator, str);
 break;
 
 default:
