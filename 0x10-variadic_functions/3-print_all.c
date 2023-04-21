@@ -1,7 +1,6 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 #include <stdio.h>
-
 /**
  * print_all - Function prints anything
  * @format: all types of arguments
@@ -31,8 +30,8 @@ printf("%s %f", separator, va_arg(anything, double));
 break;
 case 's':
 str = va_arg(anything, char *);
-if (!str)
-str = "(nil)";
+if (str == NULL)
+printf("(nil)");
 printf("%s %s", separator, str);
 break;
 default:
