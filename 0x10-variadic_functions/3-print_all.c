@@ -10,7 +10,7 @@
 void print_all(const char * const format, ...)
 {
 char *str;
-char *separator;
+char *separator = "";
 int i = 0;
 va_list anything;
 
@@ -45,7 +45,7 @@ default:
 i++;
 continue;
 }
-separator = ";";
+separator = ",";
 i++;
 }
 }
