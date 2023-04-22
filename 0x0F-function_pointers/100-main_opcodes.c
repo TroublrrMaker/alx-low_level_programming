@@ -32,10 +32,10 @@ for (i = 0; i < bytes; i++)
 {
 if (i == bytes - 1)
 {
-printf("%x\n", arr[i]);
+printf("%02x\n", arr[i]);
 break;
 }
-printf("%x ", arr[i]);
+printf("%02x ", arr[i]);
 }
 return (0);
 }
